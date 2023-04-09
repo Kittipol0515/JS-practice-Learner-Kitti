@@ -1,7 +1,7 @@
 function uniqueOddNumbers(numbers) {
-
-  // Your code here
-
+    numbers.map(number % 2)
+    return numbers
 }
+console.log(uniqueOddNumbers())
 
 module.exports = uniqueOddNumbers;

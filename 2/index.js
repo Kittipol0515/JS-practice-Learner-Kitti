@@ -1,5 +1,5 @@
 function getGrade(percentage) {
-  let grade; 
+  let grade;
   switch(true) {
     case percentage >=80 :
     grade = "A"
@@ -20,7 +20,7 @@ function getGrade(percentage) {
   return grade;
 
 }
-console.log(getGrade(49))
+// console.log(getGrade(89))
 
 
 module.exports = getGrade;
